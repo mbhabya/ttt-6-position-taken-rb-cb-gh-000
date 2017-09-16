@@ -2,8 +2,8 @@
 def position_taken?(board,index)
   # input = gets.strip
   if(board[index] == ("" || " "|| nil))
-    return false
+    false
   end
   else
-    return true
+     true
 end
